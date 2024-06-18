@@ -1,4 +1,4 @@
-package 변수와자료형;
+package grammer.변수와자료형;
 // Java 프로그래밍 - 변수와 자료형_1
 
 public class Main1 {
