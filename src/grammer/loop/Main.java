@@ -1,4 +1,4 @@
-package grammer.반복문;
+package grammer.loop;
 
 public class Main {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package grammer.조건문;
+package grammer.conditional;
 
 public class Main {
     public static void main (String[] args){

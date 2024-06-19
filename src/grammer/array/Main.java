@@ -1,4 +1,4 @@
-package grammer.다차원배열;
+package grammer.array;
 
 public class Main {
     public static void main(String[] args){
