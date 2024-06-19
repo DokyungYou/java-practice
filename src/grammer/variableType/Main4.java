@@ -1,4 +1,4 @@
-package grammer.변수와자료형;
+package grammer.variableType;
 
 import java.util.ArrayList;
 import java.util.Comparator;

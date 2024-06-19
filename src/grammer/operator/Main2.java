@@ -1,4 +1,4 @@
-package grammer.여러가지연산자;
+package grammer.operator;
 
 // 비트 연산자는 나중에
 public class Main2 {
