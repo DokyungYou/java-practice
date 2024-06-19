@@ -1,8 +1,8 @@
-package grammer.scanner.example;
+package grammer.scanner;
 
 import java.util.Scanner;
 
-public class Scanner5 {
+public class Scanner4 {
     // 두 개의 정수를 입력받고, 두 정수 사이의 모든 정수 출력
     // 첫번째 숫자보다 두번째 숫자가 더 크면 교환
     public static void main(String[] args) {
