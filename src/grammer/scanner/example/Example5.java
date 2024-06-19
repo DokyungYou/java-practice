@@ -28,13 +28,6 @@ public class Example5 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-
-        HashMap<Integer, String> options = new HashMap<>();
-        options.put(1,"상품입력");
-        options.put(2,"결제");
-        options.put(3,"프로그램 종료");
-
-
         ArrayList<Product> products = new ArrayList<>();
 
         while (true){
