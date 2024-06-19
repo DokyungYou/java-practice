@@ -10,10 +10,11 @@ public class Example4 {
 
         int totalSum = 0;
         int count = 0;
-        while (true){
-            System.out.print("숫자를 입력하십시오 :");
-            int num = scanner.nextInt();
-            if(num == -1) break;
+        int num;
+        while ((num = scanner.nextInt()) != -1){
+//            System.out.print("숫자를 입력하십시오 :");
+//            int num = scanner.nextInt();
+//            if(num == -1) break;
 
             totalSum += num;
             count++;
