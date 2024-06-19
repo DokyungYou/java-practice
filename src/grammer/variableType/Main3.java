@@ -1,4 +1,4 @@
-package grammer.변수와자료형;
+package grammer.variableType;
 // Java 프로그래밍 - 변수와 자료형_3
 // 특히 문자열 메서드 등은 능숙해져야함
 // 나중에 따로 더 자세하게 짚어보기

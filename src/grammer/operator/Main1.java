@@ -1,4 +1,4 @@
-package grammer.여러가지연산자;
+package grammer.operator;
 
 public class Main1 {
 
