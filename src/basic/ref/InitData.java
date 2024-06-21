@@ -5,6 +5,17 @@ public class InitData {
     String str;
     boolean isTrue;
 
+
+    public InitData() {
+
+    }
+
+    public InitData(int num, String str, boolean isTrue) {
+        this.num = num;
+        this.str = str;
+        this.isTrue = isTrue;
+    }
+
     public static void main(String[] args) {
 
 
@@ -20,7 +31,6 @@ public class InitData {
         System.out.println(data.str);  // null
         System.out.println(data.isTrue); // boolean
 
-        
 
     }
 }
