@@ -7,9 +7,14 @@ public class StudentConstruct {
     int grade;
 
     public StudentConstruct(String name, int age) {
-        this.name = name;
-        this.age = age;
-        this.grade = -1;
+//        this.name = name;
+//        this.age = age;
+//        this.grade = -1;
+
+
+        // StudentConstruct(String name, int age, int grade) 를 호출함
+        // this()는 생성자 실행문의 첫줄에만 작성 가능
+        this(name, age, -1);
     }
 
     public StudentConstruct(String name, int age, int grade) {
