@@ -15,7 +15,10 @@ public class Course {
     int capacity;
 
 
-    
+
+    // 다른 생성자에서 this()를 호출한다고 객체가 두개가 만들어지는 것이 아님
+    // new:  객체 생성 및 heap 메모리에 넣는 역할
+    // 생성자: 초기화 로직 수행
     Course(){
         this("미정", "미정", -1);
     }
