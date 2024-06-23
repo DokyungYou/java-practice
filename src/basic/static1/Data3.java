@@ -10,6 +10,8 @@ public class Data3 {
 
     public Data3(String name) {
         this.name = name;
+
+        // static 변수 자신이 속한 클래스 내부이니까 굳이 Data3.count 형식으로 사용할 필요는 없음
         count++;
     }
 }

@@ -51,6 +51,16 @@ public class DataCountMain {
         */
 
 
+        // 인스턴스를 통한 접근 (가능하지만 지양)
+        Data3 fourthData3 = new Data3("fourthData3");
+        System.out.println("인스턴스를 통한 접근: " + fourthData3.count);  // 인스턴스에 갔다가 static 영역으로 가서 확인
+
+
+        // 클래스를 통한 접근
+        System.out.println("클래스를 통한 접근: " + Data3.count);
+
+
+        //========================================================
         /*
         변수와 생명주기
         - 지역변수(+참조변수): 속해있는 스택 프레임 제거 시 같이 제거
