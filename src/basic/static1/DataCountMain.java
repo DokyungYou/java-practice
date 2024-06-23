@@ -28,5 +28,26 @@ public class DataCountMain {
         System.out.println("counter.count: " + counter.count);
 
 
+
+        // ==========================================================
+        System.out.println("==== Data3 ====");
+
+
+        Data3 firstData3 = new Data3("firstData3");
+        System.out.println("Data3.count: "+ Data3.count);
+
+
+        Data3 secondData3 = new Data3("secondData3");
+        System.out.println("Data3.count: "+ Data3.count);
+
+
+        Data3 thirdData3 = new Data3("thirdData3");
+        System.out.println("Data3.count: "+ Data3.count);
+
+
+        /*
+        클래스와 static 은 자바가 로딩될 때 heap 이 아닌 method 영역에 한번 올라가고,
+        해당 클래스의 여러 인스턴스들은 method 영역에 올라간 동일한 static 값을 참조
+        */
     }
 }
