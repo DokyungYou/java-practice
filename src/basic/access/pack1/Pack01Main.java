@@ -17,5 +17,16 @@ public class Pack01Main {
         //private 접근 불가
 
         accessData.innerAccess(); // private 는 해당 클래스의 public or default 메서드로 접할 수 있음
+
+
+        // ======================================================================================
+        // class 접근 제어자 실습
+
+        // 같은 패키지에 있는 클래스
+        PublicClass publicClass = new PublicClass();
+
+        DefaultClass01 defaultClass01 = new DefaultClass01();
+        DefaultClass02 defaultClass02 = new DefaultClass02();
+
     }
 }
