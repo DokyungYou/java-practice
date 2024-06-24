@@ -3,6 +3,8 @@ package basic.static2.example;
 //배열용 수학 유틸리티 클래스 만들기
 public class MathArrayUtils {
 
+    private MathArrayUtils(){}
+
     public static int getSum(int[] array){
         int sum = 0;
         for(int num : array)  sum+= num;
