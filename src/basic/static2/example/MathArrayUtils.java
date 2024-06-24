@@ -12,11 +12,8 @@ public class MathArrayUtils {
         return sum;
     }
     public static double getAverage(int[] array){
-        int sum = 0;
-        for(int num : array)
-            sum +=  num;
 
-        return Double.parseDouble(String.format("%4.2f", (double) sum / array.length));
+        return Double.parseDouble(String.format("%4.2f", (double) getSum(array) / array.length));
     }
 
     public static int getMin(int[] array){
