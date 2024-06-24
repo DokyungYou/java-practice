@@ -7,9 +7,11 @@ public class GuitarMain {
         AcousticGuitar acousticGuitar = new AcousticGuitar();
         acousticGuitar.tune();
         acousticGuitar.play();
+        acousticGuitar.changeStrings();
 
         ElectricGuitar electricGuitar = new ElectricGuitar();
         acousticGuitar.tune();
         electricGuitar.play();
+        electricGuitar.changeStrings();
     }
 }

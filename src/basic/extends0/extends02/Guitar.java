@@ -15,4 +15,8 @@ public class Guitar {
         System.out.println("튜닝 완료");
     }
 
+    public void changeStrings(){
+        System.out.println("줄 교체 완료");
+    }
+
 }
