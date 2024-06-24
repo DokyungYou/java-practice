@@ -1,4 +1,4 @@
-package final01.example;
+package basic.final01.example;
 
 public class Member {
 
