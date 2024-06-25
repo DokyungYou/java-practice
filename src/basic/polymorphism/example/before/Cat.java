@@ -1,4 +1,4 @@
-package basic.polymorphism.example01;
+package basic.polymorphism.example.before;
 
 public class Cat {
     public void sound(){
