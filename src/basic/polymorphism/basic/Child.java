@@ -1,7 +1,7 @@
 package basic.polymorphism.basic;
 
 public class Child extends Parent{
-    public void chileMethod(){
+    public void childMethod(){
         System.out.println("child Method");
     }
 }

@@ -12,7 +12,7 @@ public class PolyMain {
         // 자식 변수가 자식 인스턴스 참조
         System.out.println("Child -> Child");
         Child child = new Child(); // Parent 인스턴스 생성 + Child 인스턴스 생성
-        child.chileMethod();
+        child.childMethod();
         child.parentMethod(); // Child 인스턴스를 먼저 찾아가고 해당 메서드가 없으니 Parent 인스턴스로 이동해서 찾고 호출
 
 
@@ -20,6 +20,7 @@ public class PolyMain {
         System.out.println("Parent -> Child");
         Parent poly = new Child(); // Parent 인스턴스 생성 + Child 인스턴스 생성  // 부모타입의 변수가 자식 인스턴스를 참조
         poly.parentMethod();
+        //poly.childMethod(); // 자식기능은 호출불가
 
 
     }
