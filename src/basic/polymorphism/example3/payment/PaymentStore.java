@@ -19,7 +19,7 @@ public class PaymentStore {
             case 3:
                 return new SamsungPay();
             default:
-                return null;
+                return new DefaultPay();
         }
 
     }
