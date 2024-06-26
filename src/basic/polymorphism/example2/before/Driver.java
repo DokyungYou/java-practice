@@ -1,7 +1,8 @@
-package basic.polymorphism.example2.beforepoly;
+package basic.polymorphism.example2.before;
 
 public class Driver {
     // 새로운 차 클래스가 생길때마다 속성, 메서드를 추가, 수정을 반복해야한다.. (역할과 구현을 분리하지 않았기에 생기는 문제)
+    // 새롭게 생기는 모든 클래스에 의존하는 상황
     private GenesisCar genesisCar;
 
     private AvanteCar avanteCar;

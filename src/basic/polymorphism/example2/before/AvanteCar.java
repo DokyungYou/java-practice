@@ -1,4 +1,4 @@
-package basic.polymorphism.example2.beforepoly;
+package basic.polymorphism.example2.before;
 
 public class AvanteCar {
     public void startEngine(){
