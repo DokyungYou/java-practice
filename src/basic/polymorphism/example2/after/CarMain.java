@@ -8,5 +8,7 @@ public class CarMain {
         driver.setCar(new Avante());
         driver.testDrive();
 
+        driver.setCar(new NewModelCar());
+        driver.testDrive();
     }
 }
