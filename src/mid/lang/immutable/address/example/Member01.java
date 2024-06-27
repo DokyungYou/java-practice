@@ -1,12 +1,12 @@
-package mid.lang.immutable.example;
+package mid.lang.immutable.address.example;
 
-import mid.lang.immutable.address.ImmutableAddress;
+import mid.lang.immutable.address.Address;
 
-public class Member02 {
+public class Member01 {
     private String name;
-    private ImmutableAddress address;
+    private Address address;
 
-    public Member02(String name, ImmutableAddress address) {
+    public Member01(String name, Address address) {
         this.name = name;
         this.address = address;
     }
@@ -19,11 +19,11 @@ public class Member02 {
         this.name = name;
     }
 
-    public ImmutableAddress getAddress() {
+    public Address getAddress() {
         return address;
     }
 
-    public void setAddress(ImmutableAddress address) {
+    public void setAddress(Address address) {
         this.address = address;
     }
 

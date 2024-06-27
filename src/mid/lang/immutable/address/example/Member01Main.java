@@ -1,4 +1,4 @@
-package mid.lang.immutable.example;
+package mid.lang.immutable.address.example;
 
 import mid.lang.immutable.address.Address;
 
