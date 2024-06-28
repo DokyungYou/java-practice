@@ -1,6 +1,6 @@
 package mid.lang.wrapper;
 
-public class MyIntegerMethodMain1 {
+public class MyIntegerMethodMain {
     public static void main(String[] args) {
         MyInteger myInteger = new MyInteger(10);
 

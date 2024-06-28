@@ -1,6 +1,6 @@
-package mid.lang.wrapper;
+package mid.lang.wrapper.primitive;
 
-public class MyIntegerMethodMain0 {
+public class PrimitiveMethodMain {
     public static void main(String[] args) {
         // 기본형의 한계
         int value = 10;
