@@ -1,4 +1,4 @@
-package time;
+package time.amount;
 
 import java.sql.SQLOutput;
 import java.time.LocalDate;
