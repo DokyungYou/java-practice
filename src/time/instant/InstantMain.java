@@ -1,4 +1,4 @@
-package time;
+package time.instant;
 
 import java.time.Instant;
 import java.time.ZonedDateTime;

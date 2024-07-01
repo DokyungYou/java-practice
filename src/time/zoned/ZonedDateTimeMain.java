@@ -1,4 +1,4 @@
-package time;
+package time.zoned;
 
 import java.time.LocalDateTime;
 import java.time.ZoneId;
