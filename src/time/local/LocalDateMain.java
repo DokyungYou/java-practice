@@ -20,7 +20,7 @@ public class LocalDateMain {
         for (Field declaredField : LocalDate.class.getDeclaredFields()) {
             System.out.println(declaredField); // 모든 필드가 final 인 것을 볼 수 있음
         }
-        // 모든 날짜 클래스는 불변이므로, 변경 시 반환ㄱ밧 꼭 받기
+        // 모든 날짜 클래스는 불변이므로, 변경 시 반환값 꼭 받기
 
     }
 }
