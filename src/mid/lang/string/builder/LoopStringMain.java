@@ -13,7 +13,7 @@ public class LoopStringMain {
         }
         long endTime = System.currentTimeMillis();
         System.out.println("result: " + result);
-        System.out.println("mid.time: " + (endTime - startTime) + "ms"); // 내 컴은 10초가 넘게 걸렸다..  12008 ~ ms
+        System.out.println("time: " + (endTime - startTime) + "ms"); // 내 컴은 10초가 넘게 걸렸다..  12008 ~ ms
     }
 
     /*

@@ -36,9 +36,9 @@ public class Example5 {
         // 입력받고 난 후 최소치, 최대치 구하기 =============================
 
 //        System.out.print("정수를 몇번 입력하시겠습니까? : ");
-//        int mid.time = scanner.nextInt();
+//        int time = scanner.nextInt();
 //
-//        int[] nums = new int[mid.time];
+//        int[] nums = new int[time];
 //
 //        for (int i = 0; i < nums.length; i++) {
 //            nums[i] = scanner.nextInt();
