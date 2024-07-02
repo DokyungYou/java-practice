@@ -1,4 +1,6 @@
-package mid.anonymous.example;
+package mid.anonymous.example.ref1;
+
+import mid.anonymous.example.Processor;
 
 import java.util.Random;
 
