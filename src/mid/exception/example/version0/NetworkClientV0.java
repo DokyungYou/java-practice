@@ -1,4 +1,4 @@
-package mid.exception.version0;
+package mid.exception.example.version0;
 
 public class NetworkClientV0 {
     private final String address; // 접속할 외부 서버 주소

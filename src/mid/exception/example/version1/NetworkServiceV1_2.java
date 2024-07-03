@@ -1,4 +1,4 @@
-package mid.exception.version1;
+package mid.exception.example.version1;
 
 public class NetworkServiceV1_2 {
     public void sendMessage(String data){

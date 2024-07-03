@@ -1,4 +1,4 @@
-package mid.exception.version0;
+package mid.exception.example.version0;
 
 public class NetworkServiceV0 { // NetworkClient의 흐름 제어 담당
     public void sendMessage(String data){

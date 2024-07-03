@@ -1,13 +1,11 @@
-package mid.exception.version1;
+package mid.exception.example.version0;
 
 import java.util.Scanner;
 
-
-public class MainV1 {
+// 예제 - 시작
+public class MainV0 {
     public static void main(String[] args) {
-        //NetworkServiceV1_1 networkService = new NetworkServiceV1_1();
-        //NetworkServiceV1_2 networkService = new NetworkServiceV1_2();
-        NetworkServiceV1_3 networkService = new NetworkServiceV1_3();
+        NetworkServiceV0 networkService = new NetworkServiceV0();  // 사용자의 입력을 NetworkServiceV0 에 전달
 
         Scanner scanner = new Scanner(System.in);
         while (true){

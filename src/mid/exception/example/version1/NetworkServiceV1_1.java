@@ -1,4 +1,4 @@
-package mid.exception.version1;
+package mid.exception.example.version1;
 
 // 에러 시뮬레이션 코드 추가 (예외처리 전 상태)
 public class NetworkServiceV1_1 {

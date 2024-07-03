@@ -1,4 +1,4 @@
-package mid.exception.version1;
+package mid.exception.example.version1;
 
 
 // 오류 상황 시뮬레이션
