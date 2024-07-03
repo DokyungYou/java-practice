@@ -1,0 +1,14 @@
+package mid1.exception.example.version3.exception;
+
+public class SendException extends NetworkClientException {
+
+    private final String sendData;
+    public SendException(String sendData, String message) {
+        super(message);
+        this.sendData = sendData;
+    }
+
+    public String getSendData() {
+        return sendData;
+    }
+}
