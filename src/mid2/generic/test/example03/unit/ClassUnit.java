@@ -1,4 +1,4 @@
-package mid2.generic.test.example03;
+package mid2.generic.test.example03.unit;
 
 public class ClassUnit {
     private String name;
