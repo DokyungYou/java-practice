@@ -18,7 +18,7 @@ public class Party {
         this.maxNumber = maxNumber;
     }
 
-    public void addMember(Member<?> member) {
+    public void addMember(Member<? extends ClassUnit> member) {
         if (members.size() >= maxNumber) {
             System.out.println("정원초과");
             return;
@@ -49,6 +49,10 @@ public class Party {
 
         public Member(T unit) {
             this.unit = unit;
+        }
+
+        public T getUnit() {
+            return unit;
         }
 
         public void showInfo() {
