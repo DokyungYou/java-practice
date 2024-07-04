@@ -1,6 +1,5 @@
 package mid2.generic.test.example05;
 
-import mid2.generic.animal.Animal;
 import mid2.generic.animal.Cat;
 import mid2.generic.animal.Tiger;
 
@@ -25,7 +24,8 @@ public class WildCardMain1 {
         WildcardEx.printWildcardV2(catBox);
         WildcardEx.printWildcardV2(tigerBox);
 
-        Animal animal1 = WildcardEx.printAndReturnWildcard(catBox);
-        Animal animal2 = WildcardEx.printAndReturnWildcard(tigerBox);
+        // 입력한 타입을 그대로 반환받을 수 없다.
+        Cat animal1 = (Cat) WildcardEx.printAndReturnWildcard(catBox);
+        Tiger animal2 = (Tiger) WildcardEx.printAndReturnWildcard(tigerBox);
     }
 }

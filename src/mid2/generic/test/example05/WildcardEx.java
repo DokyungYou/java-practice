@@ -30,7 +30,7 @@ public class WildcardEx {
     }
 
     static Animal printAndReturnWildcard(Box<? extends Animal> box){
-        Animal value = box.getValue();
+        Animal value = box.getValue();  // 입력한 타입을 그대로 반환받을 수 없다. 타입을 그대로 리턴받고싶다면 호출한곳에서 다운캐스팅해줘야한다.
         System.out.println("이름: " + value.getName());
         return value;
     }
