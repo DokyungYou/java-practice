@@ -1,10 +1,10 @@
-package mid2.generic.test.example03;
+package mid2.generic.example03;
 
 import mid2.generic.animal.Animal;
 
-public class AnimalHospitalV1 {
-    private Animal animal;
-    public void setAnimal(Animal animal){
+public class AnimalHospitalV3<T extends Animal> { // 이제 컴파일러는 T에 들어올 값의 범위 예측가능
+    private T animal;
+    public void setAnimal(T animal){
         this.animal = animal;
     }
 
@@ -14,7 +14,7 @@ public class AnimalHospitalV1 {
         animal.sound();
     }
 
-    public Animal bigger(Animal targetAnimal){
+    public T bigger(T targetAnimal){
         return animal.getSize() > targetAnimal.getSize() ? animal : targetAnimal;
     }
 

@@ -1,4 +1,4 @@
-package mid2.generic.test.example04;
+package mid2.generic.example04;
 
 public class MethodMain1 {
     public static void main(String[] args) {

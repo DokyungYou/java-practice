@@ -1,4 +1,4 @@
-package mid2.generic.test.example05;
+package mid2.generic.example05;
 
 public class EraserBox<T> {
 

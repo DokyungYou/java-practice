@@ -1,4 +1,4 @@
-package mid2.generic.test.example05;
+package mid2.generic.example05;
 
 import mid2.generic.animal.Cat;
 import mid2.generic.animal.Tiger;

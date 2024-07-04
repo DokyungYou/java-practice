@@ -1,4 +1,4 @@
-package mid2.generic.test.example03;
+package mid2.generic.example03;
 
 public class AnimalHospitalV2<T>{
     private T animal;

@@ -1,4 +1,4 @@
-package mid2.generic.test.example04;
+package mid2.generic.example04;
 
 public class GenericMethod {
     public static Object objMethod(Object object){
