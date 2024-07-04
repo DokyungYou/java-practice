@@ -1,6 +1,6 @@
 package mid2.generic.example01;
 
-public class BoxMain01 {
+public class BoxMain1 {
     public static void main(String[] args) {
         IntegerBox integerBox = new IntegerBox();
         integerBox.setValue(1); // auto boxing
