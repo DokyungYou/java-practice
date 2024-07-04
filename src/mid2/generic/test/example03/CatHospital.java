@@ -1,7 +1,6 @@
 package mid2.generic.test.example03;
 
 import mid2.generic.animal.Cat;
-import mid2.generic.animal.Tiger;
 
 public class CatHospital {
     private Cat cat;
