@@ -14,7 +14,7 @@ public class NodeMain {
         // ======================================================================
         Node n = first;
         while(n != null){
-            System.out.println(n.item);
+            System.out.println(n);
             n = n.next;
         }
     }
