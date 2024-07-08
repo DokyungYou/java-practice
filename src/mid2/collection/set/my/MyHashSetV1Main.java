@@ -1,4 +1,4 @@
-package mid2.collection.set;
+package mid2.collection.set.my;
 
 public class MyHashSetV1Main {
     public static void main(String[] args) {

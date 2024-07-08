@@ -1,4 +1,4 @@
-package mid2.collection.set;
+package mid2.collection.set.my;
 
 import java.util.Arrays;
 import java.util.LinkedList;
