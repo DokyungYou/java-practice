@@ -20,7 +20,7 @@ public class SortMain2 {
             @Override
             public int compare(Integer o1, Integer o2) {
                 // return o1 > o2 ? 1 : (o1 == o2) ? 0 : -1;
-                return o1.compareTo(o2);
+                return o1.compareTo(o2); // Integer 가 Comparable를 구현했기때문에 가능
 
                 /*
                  public static int compare(int x, int y) {
