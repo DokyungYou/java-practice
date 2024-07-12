@@ -7,20 +7,20 @@ public class CardGame { // 단순한 카드 뽑기 게임으로 만들었다.
     private static final int TOTAL_NUMBER_OF_CARD = 52;
     private static final int maxCardNum = 13;
 
-    private final List<Card> cards;
+    private final List<Card> deck;
 
     private List<Player> players;
 
 
     public CardGame() {
-        this.cards = new ArrayList<>(TOTAL_NUMBER_OF_CARD);
+        this.deck = new ArrayList<>(TOTAL_NUMBER_OF_CARD);
 
         for (CardSuit value : CardSuit.values()) {
             for (int i = 1; i <= maxCardNum; i++) {
-                cards.add(new Card(value, i));
+                deck.add(new Card(value, i));
             }
         }
-        System.out.println("초기화 상태: " + cards);
+        System.out.println("초기화 상태: " + deck);
     }
 
     private void settingGame(int numberOfPlayer, int numberOfDrawCard){
@@ -52,10 +52,10 @@ public class CardGame { // 단순한 카드 뽑기 게임으로 만들었다.
                 System.out.println(i + "번: "+ "뽑은 수: " + randomNum);
                 if(!pickedNums[randomNum]){
 
-                    pickedNums[i] = true;
-                    playerCards[i] = cards.get(randomNum);
+                    pickedNums[randomNum] = true;
+                    playerCards[i] = deck.get(randomNum);
 
-                    player.addScore(cards.get(randomNum).getNumber());
+                    player.addScore(deck.get(randomNum).getNumber());
 
                 }else {
                     i--;
@@ -82,7 +82,6 @@ public class CardGame { // 단순한 카드 뽑기 게임으로 만들었다.
     }
 
     private void sortRanking(){
-
         players.sort(null);
     }
 
@@ -96,14 +95,14 @@ public class CardGame { // 단순한 카드 뽑기 게임으로 만들었다.
     }
 
     private void shuffleCards(){
-        Collections.shuffle(cards);
+        Collections.shuffle(deck);
     }
 
 
     public void start(int playerNumber, int numberOfDrawCard){
 
         shuffleCards();
-        System.out.println("섞은 상태: " + cards);
+        System.out.println("섞은 상태: " + deck);
 
         settingGame(playerNumber, numberOfDrawCard);
         pickCard();
