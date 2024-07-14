@@ -2,7 +2,7 @@ package mid2.collection.compare.test.cardgame.version01;
 
 public enum CardSuit {
     SPADE("♠","\u2660",1),
-    HART("♥","\u2665",2),
+    HEART("♥","\u2665",2),
     DIAMOND("♦","\u2666",3),
     CLOVER("♣","\u2663",4),
 
